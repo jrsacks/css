@@ -11,8 +11,8 @@
   * Errors are displayed if you do it wrong!
 
 #### Examples
-  * [Grid Example](https://jrsacks.github.io/css/example/grid.html)
-  * [Grid Error Example](https://jrsacks.github.io/css/example/gridError.html)
+  * [Grid Example](https://jrsacks.github.io/css/examples/grid.html)
+  * [Grid Error Example](https://jrsacks.github.io/css/examples/gridError.html)
 
 ### normalize.css
   * [Normalize.css - A modern, HTML5-ready alternative to CSS resets](https://necolas.github.io/normalize.css/)
@@ -21,4 +21,4 @@
   * [Ionicons](https://ionicframework.com/docs/ionicons/)
 
 #### Example
-  * [Icon Example](https://jrsacks.github.io/css/example/icon.html)
+  * [Icon Example](https://jrsacks.github.io/css/examples/icon.html)
