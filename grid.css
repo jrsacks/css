@@ -1,0 +1,31 @@
+.grid { 
+  display: grid; 
+  grid-gap: 1em;  
+}
+.row {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(6, 1fr);
+}
+.col1 { grid-column: span 1; }
+.col2 { grid-column: span 2; }
+.col3 { grid-column: span 3; }
+.col4 { grid-column: span 4; }
+.col5 { grid-column: span 5; }
+.col6 { grid-column: span 6; }
+
+:not(.grid) > .row:after, :not(.row) > [class*="col"]:after { 
+  background: red;
+  color: white;
+  display: block;
+  font-family: sans-serif,Arial;
+  font-size: 36px;   
+  left: 0px;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 1000000;
+}
+:not(.grid) > .row:after { content: "Row Not Direct Child of Grid"; }
+:not(.row) > [class*="col"]:after { content: "Col* Not Direct Child of Row"; }

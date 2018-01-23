@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Grid Example</title>
+<link href="normalize.css" rel="stylesheet">
+<link href="grid.css" rel="stylesheet">
+<style type="text/css">
+  body { margin: 15px; color: white;}
+  .grid {   border: 1px solid blue; }
+  .text-md { line-height: 28px; font-size: 20px;}
+  .row {  border: 1px solid red;}
+  [class*="col"] { border: 1px solid green; background: #444; }
+  .grid > .col1 { background: red; }
+</style>
+</head>
+<body>
+<div class="grid text-md">
+  <div class="row">
+    <div class="col1">col1</div>
+    <div class="col2">col2</div>
+    <div class="col3">col3</div>
+  </div>
+  <div class="row">
+    <div class="col1 grid">
+      <div class="row">
+        <div class="col3">col3 inside col1 = 1/12</div>
+        <div class="col3">col3 inside col1 = 1/12</div>          
+      </div>
+      <div class="row">
+        <div class="col3">1/12</div>
+        <div class="col3">1/12</div>          
+      </div>
+    </div>
+    <div class="col1">col1</div>
+    <div class="col1">col1</div>
+  </div>
+  <div class="row">
+    <div class="col5">col5</div>
+    <div class="col5">col5</div>
+  </div>
+</div>
+</body>
+</html>
