@@ -10,15 +10,10 @@
   * `row` belongs in a `grid`
   * Errors are displayed if you do it wrong!
 
+#### Examples
+  * [Grid Example](https://jrsacks.github.io/css/gridExample.html")
+  * [Grid Error Example](https://jrsacks.github.io/css/gridErrorExample.html")
+
 ### normalize.css
   * [Normalize.css - A modern, HTML5-ready alternative to CSS resets](https://necolas.github.io/normalize.css/)
 
-## Examples
-
-### Grid Example
-
-<iframe frameBorder="0" width="100%" height="400px" src="https://jrsacks.github.io/css/gridExample.html"/>
-
-### Grid Error Example
-
-<iframe frameBorder="0" width="100%" height="400px" src="https://jrsacks.github.io/css/gridErrorExample.html"/>
