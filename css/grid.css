@@ -7,12 +7,33 @@
   grid-gap: 1em;
   grid-template-columns: repeat(6, 1fr);
 }
-.col1 { grid-column: span 1; }
-.col2 { grid-column: span 2; }
-.col3 { grid-column: span 3; }
-.col4 { grid-column: span 4; }
-.col5 { grid-column: span 5; }
-.col6 { grid-column: span 6; }
+
+@media (min-width: 769px) {
+  .col1 { grid-column: span 1; }
+  .col2 { grid-column: span 2; }
+  .col3 { grid-column: span 3; }
+  .col4 { grid-column: span 4; }
+  .col5 { grid-column: span 5; }
+  .col6 { grid-column: span 6; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .col1 { grid-column: span 2; }
+  .col2 { grid-column: span 4; }
+  .col3 { grid-column: span 6; }
+  .col4 { grid-column: span 6; }
+  .col5 { grid-column: span 6; }
+  .col6 { grid-column: span 6; }
+}
+
+@media (max-width: 480px) {
+  .col1 { grid-column: span 6; }
+  .col2 { grid-column: span 6; }
+  .col3 { grid-column: span 6; }
+  .col4 { grid-column: span 6; }
+  .col5 { grid-column: span 6; }
+  .col6 { grid-column: span 6; }
+}
 
 :not(.grid) > .row:after, :not(.row) > [class*="col"]:after { 
   background: red;

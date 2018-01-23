@@ -6,6 +6,7 @@
 
 ### grid.css
   * 6 Column Grid Layout using `grid`, `row`, and `col[1-6]` classes
+  * Columns scale for smaller screens
   * `col[1-6]` belongs in a `row`
   * `row` belongs in a `grid`
   * Errors are displayed if you do it wrong!
