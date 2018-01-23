@@ -11,8 +11,8 @@
   * Errors are displayed if you do it wrong!
 
 #### Examples
-  * [Grid Example](https://jrsacks.github.io/css/gridExample.html")
-  * [Grid Error Example](https://jrsacks.github.io/css/gridErrorExample.html")
+  * [Grid Example](https://jrsacks.github.io/css/gridExample.html)
+  * [Grid Error Example](https://jrsacks.github.io/css/gridErrorExample.html)
 
 ### normalize.css
   * [Normalize.css - A modern, HTML5-ready alternative to CSS resets](https://necolas.github.io/normalize.css/)
